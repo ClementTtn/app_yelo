@@ -47,8 +47,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         // Options du marqueur
         mMap.addMarker(MarkerOptions()
             .position(marqueur_station)
-            .title(station.getName())
-            .snippet("${station.getNbPlaceLibre()}  /  ${station.getNbEmplacements()} places"))     // Affichage pas bon pour les places, je ne sais pas pourquoi...
+            .title(station.getName())) // Affichage pas bon pour les places, je ne sais pas pourquoi...
         // Moove de la caméra sur le marqueur
         mMap.moveCamera(CameraUpdateFactory.newLatLng(marqueur_station))
 
