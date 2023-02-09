@@ -1,4 +1,4 @@
-# Application Yelo La Rochelle
+# Application Yelo - La Rochelle
 
 This application, produced as part of an evaluation during my university course, is an application linked to a self-service bicycle service.
 
